@@ -8,6 +8,12 @@ This project implements a scalable data pipeline that extracts, transforms, and 
 
 ## Architecture
 
+![Data Pipeline](https://github.com/user-attachments/assets/7d758de2-14e3-4db8-ba8d-771b4674269b)
+
+![pipeline](https://github.com/user-attachments/assets/ff249eb4-4bf1-4ff3-92d9-9caaed5df0e2)
+
+
+
 ```
 Raw Data → To Process → Processed → Transformed → Data Warehouse
 ```
