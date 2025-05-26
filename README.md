@@ -8,7 +8,7 @@ This project implements a scalable data pipeline that extracts, transforms, and 
 
 ## Architecture
 
-![Data Pipeline](https://github.com/user-attachments/assets/7d758de2-14e3-4db8-ba8d-771b4674269b)
+
 
 ![pipeline](https://github.com/user-attachments/assets/ff249eb4-4bf1-4ff3-92d9-9caaed5df0e2)
 
@@ -91,41 +91,8 @@ This will:
 
 ## Data Models
 
-### Artists
-- artist_id (string)
-- artist_name (string)
-- external_url (string)
-- extraction_date (timestamp)
-- hash_key (SHA-256 hash for change detection)
-- is_current (boolean)
-- valid_from (timestamp)
-- valid_to (timestamp)
+![Data Pipeline](https://github.com/user-attachments/assets/7d758de2-14e3-4db8-ba8d-771b4674269b)
 
-### Albums
-- album_id (string)
-- name (string)
-- release_date (timestamp)
-- total_tracks (integer)
-- url (string)
-- artist_id (string)
-- extraction_date (timestamp)
-- hash_key (SHA-256 hash for change detection)
-- is_current (boolean)
-- valid_from (timestamp)
-- valid_to (timestamp)
-
-### Tracks
-- track_id (string)
-- name (string)
-- album_id (string)
-- artist_id (string)
-- duration_ms (integer)
-- explicit (boolean)
-- url (string)
-- popularity (integer)
-- track_number (integer)
-- disc_number (integer)
-- extraction_date (timestamp)
 
 ## Dependencies
 
